@@ -62,3 +62,63 @@ html{
     cursor: pointer;
     display: none;
 }
+
+/*INCIO*/
+
+.inicio{
+    background:linear-gradient(to top, rgba(72, 83, 90, 0.8), rgb(33, 57, 70)), 
+    url(/img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #3882d6;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #8eb9ea;
+    display: block;
+    width: 80%;
+    margin:auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 32px;
+    font-family: 'Nunito';
+}
+
+.inicio .contenido-banner h2{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.inicio .contenido-banner .redes-sociales a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes-sociales a:hover{
+    background-color: #8eb9ea;
+}
