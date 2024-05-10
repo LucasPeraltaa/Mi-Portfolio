@@ -298,14 +298,14 @@ html{
     font-size: 14px;
 }
 
-.skills .skill .js{
+.skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .html{
@@ -315,7 +315,7 @@ html{
 
 @keyframes html {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .css{
@@ -325,7 +325,36 @@ html{
 
 @keyframes css {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 60%;}
+}
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 10%;}
+}
+
+.skills .skill .mysql{
+    width: 0%;
+    animation: 2s mysql forwards;
+}
+
+@keyframes mysql {
+    0%{width: 0%;}
+    100%{width: 35%;}
+}
+
+.skills .skill .csharp{
+    width: 0%;
+    animation: 2s csharp forwards;
+}
+
+@keyframes csharp {
+    0%{width: 0%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .photoshop{
@@ -335,7 +364,81 @@ html{
 
 @keyframes photoshop {
     0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+/*hablidades*/
+
+
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .responsable{
+    width: 0%;
+    animation: 2s responsable forwards;
+}
+
+@keyframes responsable {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+
+.skills .skill .creativo{
+    width: 0%;
+    animation: 2s creativo forwards;
+}
+
+@keyframes creativo {
+    0%{width: 0%;}
     100%{width: 75%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .tiempo{
+    width: 0%;
+    animation: 2s tiempo forwards;
+}
+
+@keyframes tiempo {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .colaboracion{
+    width: 0%;
+    animation: 2s colaboracion forwards;
+}
+
+@keyframes colaboracion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
 }
 
 
@@ -508,7 +611,7 @@ html{
 /*contacto*/
 
 .contacto{
-    background-image: url(img/fondo-contacto.jpg);
+    
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
